@@ -25,6 +25,7 @@ def word_substituter(tweet,dictionary)
       word = dictionary[words.downcase]
     end
   end
+  array.join(" ")
 end
 
 # array.each.do |k, v|
