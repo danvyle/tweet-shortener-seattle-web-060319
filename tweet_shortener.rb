@@ -19,5 +19,6 @@ end
 # => "Welcome to Ruby Essentials!"
 # end
 
-def word_subsituter(tweet)
+def word_substituter(tweet)
+  
 end
