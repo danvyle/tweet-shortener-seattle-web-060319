@@ -12,6 +12,7 @@ dictionary = {
   "you": "u",
   "at": "@",
   "and": "&"}
+end
 
 
 # myString.gsub("PHP", "Ruby")
