@@ -20,9 +20,12 @@ end
 # end
 
 def word_substituter(tweet,dictionary)
-  array = tweet.split
-  array.each.do |k, v|
-    tweet.gsub("#{k}", "#{v}")
-  array
+  array = tweet.split.map |words|
+  
   
 end
+# array.each.do |k, v|
+#     tweet.gsub("#{k}", "#{v}")
+#   array
+  
+  
