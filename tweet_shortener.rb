@@ -19,7 +19,7 @@ end
 # => "Welcome to Ruby Essentials!"
 # end
 
-def word_substituter(tweet,dictionary)
+def word_substituter(tweet)
   array = tweet.split.map do |words|
     if dictionary.keys.include?(words.downcase)
       word = dictionary[words.downcase]
