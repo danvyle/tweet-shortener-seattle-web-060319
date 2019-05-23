@@ -21,12 +21,12 @@ end
 
 def word_substituter(tweet,dictionary)
   array = tweet.split.map do |words|
-    if dictionary.keys.include?(words)
-      array.gsub("#{k}", "#{v}")
+    if dictionary.keys.include?(words.downcase)
+      word = dictionary[words.downcase]
     end
   end
-  
 end
+
 # array.each.do |k, v|
 #     tweet.gsub("#{k}", "#{v}")
 #   array
