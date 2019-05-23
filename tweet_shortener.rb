@@ -19,7 +19,10 @@ end
 # => "Welcome to Ruby Essentials!"
 # end
 
-def word_substituter(tweet)
-  tweet.split
+def word_substituter(tweet,dictionary)
+  array = tweet.split
+  array.each.do |k, v|
+    tweet.gsub("#{k}", "#{v}")
+  array
   
 end
