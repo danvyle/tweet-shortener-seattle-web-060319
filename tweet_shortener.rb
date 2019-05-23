@@ -21,7 +21,8 @@ end
 
 def word_substituter(tweet,dictionary)
   array = tweet.split.map do |words|
-  
+    if dictionary.keys.include?(words)
+      
   
 end
 # array.each.do |k, v|
