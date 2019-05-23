@@ -20,7 +20,7 @@ end
 # end
 
 def word_substituter(tweet,dictionary)
-  array = tweet.split.map |words|
+  array = tweet.split.map do |words|
   
   
 end
