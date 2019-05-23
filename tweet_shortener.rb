@@ -14,9 +14,9 @@ dictionary = {
   "and": "&"}
 
 
-myString.gsub("PHP", "Ruby")
-=> "Welcome to Ruby Essentials!"
-end
+# myString.gsub("PHP", "Ruby")
+# => "Welcome to Ruby Essentials!"
+# end
 
 def word_subsituter(tweet)
 end
