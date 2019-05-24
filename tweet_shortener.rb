@@ -27,7 +27,7 @@ end
 end
 
 def bulk_tweet_shortener(multi_tweets)
-  word_substituter(multi_tweet).each do |line|
+  word_substituter(multi_tweet).each do |tweet|
     
   
 end
