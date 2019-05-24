@@ -1,6 +1,6 @@
 # Write your code here.
 
-def dictionary(key, value)
+def dictionary
 dictionary = {
   "hello": "hi",
   "to": "2",
@@ -23,11 +23,10 @@ def word_substituter(tweet)
   array = tweet.split.map do |word|
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
-    else
-      word
     end
+   array.join(" ")
   end
-  puts array.join(" ")
+  
 end
 # def word_substituter(tweet)
 #     tweet_array = tweet.split.map do |word|
