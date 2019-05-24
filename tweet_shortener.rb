@@ -40,6 +40,7 @@ def word_substituter(tweet)
         end
     end
     puts tweet_array.join(" ")
+    word_substituter(tweet)
 end
 # array.each.do |k, v|
 #     tweet.gsub("#{k}", "#{v}")
