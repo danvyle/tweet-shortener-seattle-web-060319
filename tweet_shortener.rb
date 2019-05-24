@@ -24,7 +24,7 @@ def word_substituter(tweet)
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
     end
-   array.join(" ")
+   puts array.join(" ")
   end
   
 end
