@@ -34,9 +34,12 @@ end
 
 def selective_tweet_shortener(multi_tweets)
   multi_tweets.each do |tweet|
-    if length  <= 140
+    if tweet.size <= 140
       return tweet
-    else length > 140
-      word_substituter(tweet)
+    else tweet.size > 140
+      puts word_substituter(tweet)
+    end
+  end
+end
     
   
