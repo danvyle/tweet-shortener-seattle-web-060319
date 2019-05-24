@@ -9,6 +9,7 @@ require 'pry'
         "for" => "4",
         "four" => "4",
         "you" => "u",
+        "be" => "b",
         "at" => "@",
         "and" => "&"
     }
